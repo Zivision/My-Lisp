@@ -16,14 +16,17 @@
         packages = with pkgs; [
           # Ocaml
           ocaml
-
-          # Dev Tools
           dune
+        ];
+
+        devTools = with pkgs.ocamlPackages; [
           utop
           ocamlformat
-          ocaml-lsp-server
+          merlin
           ocp-indent
+          opam-core
         ];
+
         shellHook = ''
           echo "Dev Ready!"
         '';
