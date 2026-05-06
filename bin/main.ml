@@ -1,3 +1,6 @@
+open Repl
+
 let () =
-  print_endline "Hello, World!"
+  (* Start REPL on call *)
+  Repl.repl
 ;;

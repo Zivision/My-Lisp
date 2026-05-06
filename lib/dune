@@ -1,2 +1,2 @@
 (library
- (name my_lisp))
+ (name repl))

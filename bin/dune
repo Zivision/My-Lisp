@@ -1,4 +1,4 @@
 (executable
  (public_name my_lisp)
  (name main)
- (libraries my_lisp))
+ (libraries repl))
