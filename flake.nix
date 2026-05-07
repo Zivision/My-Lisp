@@ -17,14 +17,12 @@
           # Ocaml
           ocaml
           dune
-        ];
-
-        devTools = with pkgs.ocamlPackages; [
-          utop
-          ocamlformat
-          merlin
-          ocp-indent
-          opam-core
+          ocamlPackages.utop
+          ocamlPackages.ocamlformat
+          ocamlPackages.merlin
+          ocamlPackages.ocp-indent
+          ocamlPackages.opam-core
+          ocamlPackages.ocaml-lsp
         ];
 
         shellHook = ''

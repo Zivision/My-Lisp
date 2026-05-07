@@ -1,5 +1,6 @@
-(* Basic Test REPL *)
+open Lex
 
+(* Basic Test REPL *)
 let repl =
   print_string "LISP REPL v0.0.1\n";
   print_string "Press Ctrl+c to Exit\n";
